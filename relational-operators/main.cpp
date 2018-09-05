@@ -1,7 +1,6 @@
 // Coty Hamilton : relational operators : 11172 : cotyhamilton
 
 #include <iostream>
-#include <string>
 
 using namespace std;
 
