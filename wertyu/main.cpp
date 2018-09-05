@@ -21,7 +21,9 @@ int main() {
     while (getline(cin, unLefted)) {
 
         for(char& c : unLefted) {
+            
             lefted += shiftTable[int(c) - 32];
+        
         }
 
     cout << lefted << endl;
