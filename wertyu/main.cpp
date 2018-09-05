@@ -26,9 +26,9 @@ int main() {
         
         }
 
-    cout << lefted << endl;
+        cout << lefted << endl;
 
-    lefted = "";
+        lefted = "";
 
     }
 
