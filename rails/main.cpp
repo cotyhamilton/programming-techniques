@@ -1,11 +1,5 @@
 // Coty Hamilton : rails : 514 : cotyhamilton
 
-/*
-
-    tricks of the trade:
-
-*/
-
 #include <iostream>
 #include <stack>
 #include <queue>
