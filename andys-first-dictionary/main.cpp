@@ -22,6 +22,8 @@ int main() {
 
     while(cin >> line) {
 
+        // iterate over string, discard non-alpha characters
+
         for (int i = 0; i < line.length(); i++) {
 
             if (!isalpha(line[i])) {
@@ -36,6 +38,8 @@ int main() {
 
             }
 
+            // append aux string with alpha char
+
             else {
 
                 aux += tolower(line[i]);
@@ -44,6 +48,8 @@ int main() {
 
         }
 
+        // prevent adding empty string to set
+
         if (aux != "") {
 
             dictionary.insert(aux);
@@ -51,7 +57,6 @@ int main() {
             aux = "";
 
         }
-
         
 
     }
@@ -66,5 +71,3 @@ int main() {
     return 0;
 
 }
-
-// cout << (i < end ? " " : "");
