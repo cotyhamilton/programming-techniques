@@ -1,5 +1,15 @@
 // Coty Hamilton : compromise : 531 : cotyhamilton
 
+/*
+
+    tricks of the trade:
+
+        pass vectors by reference to utility functions
+
+        used iterative over recursive because fast > cool :)
+
+*/
+
 #include <iostream>
 #include <vector>
 #include <string>
